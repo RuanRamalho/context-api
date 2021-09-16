@@ -1,9 +1,12 @@
 import React from 'react';
+import Profile from './components/Profile';
+import Form from './components/Form';
 
 function App() {
   return (
     <>
-      <h1>Olá Mundo!</h1>
+      <Profile />
+      <Form />
     </>
   );
 }
